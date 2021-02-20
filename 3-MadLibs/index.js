@@ -30,11 +30,11 @@ btns.forEach(function (btn) {
         if (styles.contains("generate")) {
             containerString.textContent = generateMadlib();
         } else {
-            containerString.textContent = "Reset! Strings have been reset.";
+            containerString.textContent = "Reset! String has been reset.";
 
             setTimeout(function() {
                 containerString.textContent = "Generate new Madlib by clicking \"Generate\"";
-            }, 1000);
+            }, 1500);
         }
     });
 });
